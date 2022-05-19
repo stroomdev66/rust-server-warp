@@ -1,0 +1,13 @@
+[package]
+name = "rust-servlet"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#futures = "0.3.21"
+#net2 = "0.2.37"
+tokio = { version = "1.17.0", features = ["full"] }
+#tokio-stream = "0.1.8"
+warp = "0.3.2"
